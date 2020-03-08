@@ -1,0 +1,28 @@
+body {
+    background-image: url(../img/backgroundbody.jpg);
+background-color: black;
+margin: auto;
+}
+
+.header {
+    margin: 1%;
+    border: 3px inset white;
+    background-color: #9E9E9E;
+    background-size: initial;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-nav{
+    color:black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav h1{
+    margin-left: 3%;
+}
+.header-link {
+    display: inherit;
+    
+}
