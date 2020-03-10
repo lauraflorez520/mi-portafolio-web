@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Viaoda+Libre&display=swap');
+
+/*../img/backgroundbody.jpg*/
+
+
+/*https://images.sharefaith.com/images/3/1541196043874_43/img_mouseover3.jpg*/
+
 body {
     background-image: url(../img/backgroundbody.jpg);
-background-color: black;
-margin: auto;
+    background-color: black;
+    background-image: contain;
+    font-family: 'Viaoda Libre';
 }
 
 .header {
@@ -10,19 +18,77 @@ margin: auto;
     background-color: #9E9E9E;
     background-size: initial;
     color: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Viaoda Libre';
 }
 
-.header-nav{
-    color:black;
-    display: flex;
-    justify-content: space-between;
-}
-
-.header-nav h1{
+.header-nav h1 {
     margin-left: 3%;
 }
-.header-link {
-    display: inherit;
+
+#mi-banner {
+    max-width: 64vw;
+    position: relative;
+    left: 12vw;
+}
+
+#text-footer {
     
+}
+
+ul {
+    list-style-type: disc;
+}
+
+#lista-header {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.text {
+    text-decoration: none;
+}
+
+.my-proyects {
+    margin-top: 5%;
+}
+
+#margin-text {
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+
+#margin-banner {
+    margin-top: 15%;
+}
+
+#presentacion {
+    position: relative;
+    top: 100px;
+    left: 55px;
+}
+
+section {
+    display: block;
+}
+
+footer {
+    background-color: grey;
+    border-style: groove;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+}
+
+.footer_section {
+    display: flex;
+    justify-content: flex-end;
+    /* margin-top: 20px;
+    margin-bottom: 20px;*/
+}
+
+footer a {
+    display: flex;
+    justify-content: end;
 }

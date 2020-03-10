@@ -1,34 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Akronim|Domine|Merienda+One|Poppins&display=swap');
-        </style>
-        <link rel="stylesheet" href="./styles.css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css/styles.css">
     <title>Mi portafolio Web</title>
 </head>
-<body>
-    <header class="header">
-        <div class="container">
-        <nav class="header-nav">
-        <h1>Mi portafolio</h1>
-        <ul>
-            <li>
-                <a class="header-link" href="">Portafolio de servicios</a>
-                 </li>
-            <li> 
-                <a class="header-link" href="">Trabajemos juntos</a>
-            </li>
-        </ul>  
-    </nav> 
-</div>     
-    </header>
-    <section class="banner"></section>
-    <main>
+<div class="container-fluid">
 
-    </main>
-    <footer></footer>
-</body>
+    <body>
+        <header class="header fixed-top">
+            <div class="">
+                <nav class="text-body row justify-content-between img-fluid">
+                    <h1 class="col-4" style="margin-left: 1cm;"><strong>My Portfolio</strong></h1>
+                    <ul class="col-4 align-self-center" id="lista-header">
+
+                        <li id="-li">
+                            <a href="#My_projects..." class="h4 text-dark"><strong>Services Portfolio</strong></a>
+                        </li>
+                        <li id="-li">
+                            <a target="_blank" href="https://www.linkedin.com/in/laura-florez-9507a2185/" class="h4 text-dark"><strong>Let's work together</strong></a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="">
+
+                <section id="mi-banner" class=" rounded row align-items-center justify-content-between banner bg-white btn-block container.sm" style="margin-top: 5cm; margin-right: 10%; margin-left: 1cm; padding-bottom: 5cm;">
+
+                    <div class="col-7" id="margin-banner">
+                        <h2 class="text-center align-self-center" id="presentacion"><strong> Hi there! This is Laura
+                                Flórez and I'm improving my skills to be a Web Developer FrontEnd.</strong></h2>
+                    </div>
+                    <div class="col-5">
+                        <img style="margin-right: -15cm; margin-top: -5cm;" class="border border-light rounded-circle float-right" width="300" height="auto" src="https://scontent.feoh3-1.fna.fbcdn.net/v/t1.0-9/57882274_10215392947029666_3659521726301077504_n.jpg?_nc_cat=111&_nc_sid=110474&_nc_eui2=AeEwWbQIopqO8wd6ShmHsVrvEsDLdipBmwB6WHK1TFEuIWbnnWEiWMfxVfA6diqGQED_vbwAxqyzJ16pFIf7169jTxPQ30Ts2LN5O0p4hpwpKw&_nc_oc=AQnD3ZecPBDG9YYsThVnuYEYvJEJSVYCdiJeFFv-gXmdW4Dx_1AzdeSSithrKyf_eyw&_nc_ht=scontent.feoh3-1.fna&oh=1431b3d5e31dd2bd523e9f33403cda81&oe=5E902761"
+                            alt="">
+
+                    </div>
+
+                </section>
+            </div>
+
+        </main>
+        <hr>
+        <hr>
+        <section class="my-proyects container-fluid">
+            <h3 class=" h1 text-white " id="margin-text ">My projects...</h3>
+            <div class="row ">
+
+                <div class="col-sm-12 col-md-4 col-lg-4	col-xl-4 card text-center shadow p-3 mb-5 " style="width: 30%; ">
+                    <img src="img/monanthes.jpg " class="card-img-top border border-dark " alt="Lanfing page ">
+                    <div class="card-body ">
+                        <h5 class="card-title "><strong>Landing Page</strong></h5>
+                        <p class="card-text text-black "><strong>Aquí está mi tienda online, donde podrás adquirir diferentes productos</strong>
+                        </p>
+                        <a target="_blank" href="https://lauraflorez520.github.io/Landing-page-Monanthes/ " class="btn btn-outline-dark">
+                            <span class="h4"> Ver...</span></a>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 col-lg-4	col-xl-4 card text-center shadow p-3 mb-5 " style="width: 30%; ">
+                    <img src="https://image.freepik.com/vector-gratis/telefono-movil-formulario-lista-verificacion-o-pantalla-telefono-inteligente-documento-o-lista-tareas-ilustracion-casillas-verificacion-caricatura-plana_101884-618.jpg " class="card-img-top
+            border border-dark " alt="Formulario ">
+                    <div class="card-body ">
+                        <h5 class="card-title "><strong>Formulario</strong></h5>
+                        <p class="card-text "><strong>Este es un breve formulario para una tienda online.</strong></p>
+                        <a targer="_blank" href="https://lauraflorez520.github.io/formulario/ " class="btn btn-outline-dark "><span class="h4"> Ver...</span></a>
+                    </div>
+                </div>
+                <hr>
+                <div class="col-sm-12 col-md-4 col-lg-4	col-xl-4 card text-center shadow p-3 mb-5 " style="width: 30%; ">
+                    <img src="img/caricatura-del-cerebro-con-idea-divertida-ilustracion-del-concepto-vectorial-p96x3g.jpg " class="card-img-top border border-dark " alt="Pagina informativa ">
+                    <div class="card-body ">
+                        <h5 class="card-title "><strong>Página informativa</strong> </h5>
+                        <p class="card-text "><strong>En este botón encontrarás una página informativa sobre un tema que me apasiona.</strong>
+                        </p>
+                        <a target="_blank" href="https://lauraflorez520.github.io/pagina-informativa/ " class="btn btn-outline-dark "><span class="h4"> Ver...</span></a>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+
+        <footer class="footer ">
+            <div class="container ">
+                <div class="footer_section ">
+                    <h4 id="text-footer" style="margin-right: 3%; ">Laura Flórez</h4>
+
+                    <a target="_blank " href="https://github.com/lauraflorez520 ">
+                        <img src="https://cdn.iconscout.com/icon/free/png-256/github-149-624845.png " width="80px" height="80px" alt=" ">
+                    </a>
+                    <a target="_blank " href="https://www.facebook.com/laura.florez.1671 ">
+                        <img src="https://img.icons8.com/color/48/000000/facebook-new.png " width="83px" height="83px" alt=" ">
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js " integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n " crossorigin="anonymous "></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js " integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 " crossorigin="anonymous "></script>
+    </body>
+</div>
+
 </html>
