@@ -31,9 +31,7 @@ body {
     left: 12vw;
 }
 
-#text-footer {
-    
-}
+
 
 ul {
     list-style-type: disc;
@@ -91,4 +89,10 @@ footer {
 footer a {
     display: flex;
     justify-content: end;
+}
+
+#text-footer {
+  position: relative;
+  bottom: -22px;
+
 }
